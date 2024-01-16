@@ -1,0 +1,26 @@
+{
+  "name": "ts-challenge",
+  "version": "1.0.0",
+  "private": "true",
+  "description": "印客学院 Typescript 类型体操",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "init": "pnpm install && pnpm run docs:build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "encode",
+    "typescript",
+    "challenge"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "1.0.0-rc.36"
+  },
+  "engines": {
+    "node": ">= 18.14.0"
+  }
+}
